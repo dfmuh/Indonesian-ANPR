@@ -73,14 +73,14 @@ class ANPR(tk.Frame):
 
                 # Name of the directory containing the object detection module we're using
                 MODEL_NAME = '../tf/plat_baru'
-                IMAGE_NAME = 'C:/Users/lenovo/PycharmProjects/pythonProject/ANPR JADI/Image/opencv_frame.png'
+                IMAGE_NAME = '../Image/opencv_frame.png'
 
                 # Grab path to current working directory
                 CWD_PATH = os.getcwd()
 
                 # Path to frozen detection graph .pb file, which contains the model that is used
                 # for object detection.
-                PATH_TO_CKPT = 'C:/Users/lenovo/PycharmProjects/pythonProject/ANPR JADI/src/tf/plat_baru/frozen_inference_graph.pb'
+                PATH_TO_CKPT = 'tf/plat_baru/frozen_inference_graph.pb'
 
                 # Path to label map file
                 PATH_TO_LABELS = os.path.join(CWD_PATH, 'tf/data', 'plat_map.pbtxt')

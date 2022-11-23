@@ -27,9 +27,9 @@ def open_img(self):
         elif k % 256 == 32:
             # SPACE pressed
             img_name = "opencv_frame.png"
-            cv2.imwrite("C:/Users/lenovo/PycharmProjects/pythonProject/ANPR JADI/Image/" + img_name, frame)
+            cv2.imwrite("../Image/" + img_name, frame)
             print("{} written!".format(img_name))
-            self.file_img = "C:/Users/lenovo/PycharmProjects/pythonProject/ANPR JADI/Image/" + img_name
+            self.file_img = "../Image/" + img_name
 
     if len(self.file_img) > 0:
         self.lbl_f_path.configure(text=self.file_img)
