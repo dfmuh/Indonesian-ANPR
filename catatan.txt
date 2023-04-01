@@ -1,6 +1,0 @@
-Bagian pages/page_anpr.py
-Baris 69-72 ubah ke directory tf object detection API
-
-Tutorial capture image
-Capture : Space
-Exit : Esc
