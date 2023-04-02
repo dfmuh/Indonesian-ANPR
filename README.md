@@ -8,11 +8,14 @@ Pastikan sudah terinstall Python versi 3.6 pada sistem operasi Anda sebelum menj
 
 ## Cara Menggunakan
 1. Clone repository ini
-2. Install semua dependencies yang dibutuhkan dengan cara "pip install -r requirements.txt"
+2. Install semua dependencies yang dibutuhkan dengan cara
+```
+pip install -r requirements.txt
+```
 3. Jalankan aplikasi core.py
 
 ## Catatan
-- Pada bagian pages/page_anpr.py, pada baris 69-72 ubah ke directory tf object detection API sesuai dengan directory pada sistem Anda.
+- Pada bagian `pages/page_anpr.py`, pada baris 69-72 ubah ke directory tf object detection API sesuai dengan directory pada sistem Anda.
 
 ## Tutorial Capture Image
 - Capture : Space
